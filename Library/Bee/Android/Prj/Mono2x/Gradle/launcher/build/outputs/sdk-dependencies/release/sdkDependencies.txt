@@ -1,0 +1,36 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "billing-4.0.0"
+  }
+  digests {
+    sha256: "fN\353\245Q\371\253\2108\3614URY\v\375q\261\350\367t/m\324\vS\260\336a\367\243\304"
+  }
+}
+library {
+  maven_library {
+    artifactId: "common"
+  }
+  digests {
+    sha256: "i\006\370Ya1@5 DuV\"\334\3655\214\367\262U\252\360h\313\021\207\260\265!G\350\243"
+  }
+}
+library {
+  digests {
+    sha256: "\232\246\n\312\2333 G\366\'i\324NWP:/Xz}dJ\027\266\036\246p\304q\n\342\312"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+}
